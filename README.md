@@ -13,7 +13,7 @@
 
 > Может я не прав, ты тоже не права
 
- @Роберт Плаудис
+> Роберт Плаудис
 
 <img width="800" height="1067" alt="image" src="https://github.com/user-attachments/assets/2c4b3745-dfd2-4227-afa4-7f25d6337214" />
 
