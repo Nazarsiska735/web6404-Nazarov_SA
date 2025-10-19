@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Функции — FlowBalance</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header container">
+  <a class="logo" href="index.html">Flow<span>Balance</span></a>
+  <nav class="nav">
+    <a href="index.html" class="nav__link">Главная</a>
+    <a href="features.html" class="nav__link nav__link--active">Функции</a>
+    <a href="methodology.html" class="nav__link">Методология</a>
+    <a href="contact.html" class="nav__link">Контакты</a>
+  </nav>
+</header>
+
+<main class="container readable">
+  <h1>Функции</h1>
+
+  <section id="workload" class="card" style="margin-bottom:16px">
+    <img src="images/team.jpg" alt="Балансировка нагрузки" class="card__img">
+    <div class="card__body">
+      <h3 class="card__title">Балансировка нагрузки</h3>
+      <p class="card__text">Распределение задач по навыкам и доступности сотрудников.</p>
+    </div>
+  </section>
+
+  <section id="sla" class="card" style="margin-bottom:16px">
+    <img src="images/clock.jpg" alt="Контроль SLA" class="card__img">
+    <div class="card__body">
+      <h3 class="card__title">Контроль SLA</h3>
+      <p class="card__text">Подсказки по приоритетам и предотвращение просрочек.</p>
+    </div>
+  </section>
+
+  <article id="reports" class="card" style="margin-bottom:16px">
+    <img src="images/analytics.jpg" alt="Аналитика" class="card__img">
+    <div class="card__body">
+      <h3 class="card__title">Отчёты и срезы</h3>
+      <p class="card__text">Статусы по командам, ролям и периодам.</p>
+    </div>
+  </article>
+
+  <h2>Таблица SLA-показателей</h2>
+  <p class="muted">Три выравнивания: слева/центр/справа.</p>
+  <table class="table">
+    <thead>
+      <tr>
+        <th class="ta-left">Метрика</th>
+        <th class="ta-center">Цель</th>
+        <th class="ta-right">Текущее значение</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="ta-left">Среднее время отклика</td>
+        <td class="ta-center">≤ 15 мин</td>
+        <td class="ta-right">12 мин</td>
+      </tr>
+      <tr>
+        <td class="ta-left">Доля задач в срок</td>
+        <td class="ta-center">≥ 95%</td>
+        <td class="ta-right">96,7%</td>
+      </tr>
+      <tr>
+        <td class="ta-left">Средняя загрузка на сотрудника</td>
+        <td class="ta-center">≤ 85%</td>
+        <td class="ta-right">81%</td>
+      </tr>
+    </tbody>
+  </table>
+</main>
+
+<footer class="site-footer container">
+  <p>© 2025 FlowBalance. Учебный проект.</p>
+</footer>
+</body>
+</html>
