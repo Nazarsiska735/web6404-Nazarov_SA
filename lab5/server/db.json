@@ -1,0 +1,14 @@
+{
+    "/users": {
+        "get": {
+            "data": [
+                { "id": 1, "login": "demo", "password": "12345" }
+            ]
+        },
+        "post": {
+            "data": [
+                { "status": "OK", "message": "Данные сохранены" }
+            ]
+        }
+    }
+}

@@ -1,0 +1,53 @@
+<!doctype html>
+<title>Контакты — FlowBalance</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header container">
+<a class="logo" href="index.html">Flow<span>Balance</span></a>
+<nav class="nav">
+<a href="index.html" class="nav__link">Главная</a>
+<a href="features.html" class="nav__link">Функции</a>
+<a href="methodology.html" class="nav__link">Методология</a>
+<a href="contact.html" class="nav__link nav__link--active">Контакты</a>
+</nav>
+</header>
+
+
+<main class="container readable">
+<h1>Форма авторизации</h1>
+
+<form class="form" id="authForm">
+
+    <label>Логин:
+        <input id="loginInput" type="text">
+        <small id="loginHint" class="hint"></small>
+    </label>
+
+    <label>Пароль:
+        <input id="passwordInput" type="password">
+        <small id="passwordHint" class="hint"></small>
+    </label>
+
+    <label>
+        <input type="checkbox" id="agreeInput">
+        Согласен на обработку данных
+        <small id="agreeHint" class="hint"></small>
+    </label>
+
+    <button type="submit" class="form__submit">Отправить</button>
+</form>
+
+<button id="loadDataBtn" class="button">Получить данные</button>
+
+<pre id="serverOutput"></pre>
+</main>
+
+<footer class="site-footer container">
+  <p>© 2025 FlowBalance. Учебный проект.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
